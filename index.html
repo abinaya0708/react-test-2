@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React-2</title>
+</head>
+<body>
+    <pre>
+        1.What is hook?write one example...
+
+        Hooks are functions that let you “hook into” React state and lifecycle features from function components.
+         Hooks don't work inside classes — they let you use React without classes.
+         Example:
+         import React,{useState} from "react";
+
+         export const hook=()=>{
+            const[name,setname]=useState("Abinaya")
+            return(
+                < div>
+                    < h1>{setname("akalya")}< /h1>
+                < /div>
+            )
+         }
+         ------------------------------------------------------------------------
+
+         2.What is props?
+
+         In ReactJS, the props are a type of object where the value of attributes of a tag is stored. The word “props” implies “properties”, and its working functionality is quite similar to HTML attributes.
+          Basically, these props components are read-only components.
+          Props is an object.
+        ------------------------------------------------------------------------
+         3.What is State?
+
+         The state is a built-in React object that is used to contain data or information about the component.
+          A component's state can change over time; whenever it changes, the component re-renders.
+
+
+          -------------------------------------------------------------------------
+
+          4.Difference between function component and class component?
+
+          Functional components are written as a JavaScript function. Class components are written as a JavaScript class. Functional components do not have a state or lifecycle methods. 
+          Class components have a state and can implement lifecycle methods like componentDidMount and componentDidUpdate.
+
+          ------------------------------------------------------------------------
+
+          5.Write a example for state update---
+
+          import React,{useState} from "react";
+
+         export const hook=()=>{
+            const[name,setname]=useState("Abinaya")
+            return(
+                < div>
+                    < h1>{setname("akalya")}< /h1>
+                < /div>
+            )
+         }
+         ------------------------------------------------------------------------
+    </pre>
+</body>
+</html>
